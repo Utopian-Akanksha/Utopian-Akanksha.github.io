@@ -1,0 +1,24 @@
+.navBox{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem;
+    font-size:2rem;
+}
+
+.myLogo{
+    color:rgb(222, 222, 66);
+}
+
+.resumeBtn>button{
+    height:40px;
+    width:80px;
+    font-size:1.1rem;
+    background-color: rgb(154, 154, 22);
+    border-radius: 6px;
+}
+
+.resumeBtn>button>a{
+    text-decoration: none;
+    color:white;
+}
