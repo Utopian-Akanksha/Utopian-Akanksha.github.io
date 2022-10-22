@@ -4,8 +4,6 @@ import twitter from '../Assets/twitter.png'
 import github from '../Assets/github.png'
 import gmail from '../Assets/gmail.png'
 import linkedin from '../Assets/linkedin.png'
-import { faHome, faUsers, faContactBook,faBriefcase,faKitchenSet} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../Styles/About.css"
 
 const About = () => {
@@ -21,7 +19,7 @@ const About = () => {
 
           <div className="aboutBox" >
             <div className="profile_img">
-              <img src={myLogo2} width="400px" alt="profile" />
+              <img src={myLogo2} width="350px"alt="profile" />
             </div>
             <div className="intro">
               <div>
@@ -31,14 +29,6 @@ const About = () => {
                 <br></br>
               </div>
             </div>
-          </div>
-
-          <div className="navbar">
-            <div><FontAwesomeIcon icon={faHome} /></div>
-            <div><FontAwesomeIcon icon={faUsers} /></div>
-            <div><FontAwesomeIcon icon={faBriefcase} /></div>
-            <div><FontAwesomeIcon icon={faKitchenSet} /></div>
-            <div><FontAwesomeIcon icon={faContactBook} /></div>
           </div>
     </div>
   )

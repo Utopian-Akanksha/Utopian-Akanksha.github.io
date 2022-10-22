@@ -1,8 +1,13 @@
+
+
 .App {
   text-align: center;
-  background-image:linear-gradient(to right,white,black);
-  font-family: cursive;
+  background-color:black;
+  /* padding:0;
+  margin:0 */
 }
+
+/* body { background-image:url('bgGif.gif'); background-repeat:repeat; } */
 
 .App-logo {
   height: 40vmin;
