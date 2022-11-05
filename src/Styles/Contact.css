@@ -1,0 +1,144 @@
+
+.contactBox{
+    margin-top: 4rem;
+    color:yellow;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10rem;
+}
+
+.box1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+.box2{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap:2rem;
+}
+
+.quote{
+    font-size: 2rem;
+    color:white;
+}
+
+.socialConnect{
+    display:flex;
+    gap:1rem;
+
+}
+
+.socialConnect>button{
+    height:40px;
+    width:120px;
+    border:none;
+    border-radius: 10px;
+    font-size: 14px;
+    color:white;
+    background-color: rgb(154, 154, 22)
+
+}
+
+.socialConnect>button>a{
+    text-decoration: none;
+    color:white;
+}
+
+.contactHead{
+    font-size: 2rem;
+    color:white;
+}
+
+.labelInput{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: left;
+}
+
+.input{
+    height:40px;
+    width:300px;
+    border:none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: transparent;
+    border:1px solid yellow;
+}
+
+.input::placeholder{
+    color:white;
+    text-align: left;
+}
+
+.message{
+    height:200px;
+    width:300px;
+    border:none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: transparent;
+    border:1px solid yellow;
+}
+
+.message::placeholder{
+    color:white;
+    text-align: left;
+}
+
+.send>button{
+    height:40px;
+    width:300px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(154, 154, 22);
+    font-size: 14px;
+}
+
+.teleEmail{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.link{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.externalLink{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  yellow;
+    width:35px;
+    height:35px;
+    border-radius: 40%;
+    cursor:pointer;
+    transition: .5s;
+}
+
+.externalLink:hover:before{
+    filter:blur(3px);
+    transform: scale(1.3);
+    box-shadow: 0 0 15px yellow;
+    
+}
+
+.externalLink:hover{
+    color:#ffa502;
+    box-shadow: 0 0 15px yellow;
+    text-shadow:  0 0 15px yellow;
+}

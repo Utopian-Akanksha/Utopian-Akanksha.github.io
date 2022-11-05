@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../Styles/Navbar.css"
+import akanksha_malviya from '../Assets/akanksha_malviya.pdf'
 
 const Navbar = () => {
 
@@ -24,7 +25,7 @@ const Navbar = () => {
            <div>Work</div>
            <div>Skills</div>
            <div>Contact</div>
-           <div className="resumeBtn"> <button><a href="https://drive.google.com/drive/u/0/folders/1IviGrrnyu4lpBNPD7Wxl9HufF9VknqeC">Resume</a></button></div>
+           <div className="resumeBtn"> <button><a href={akanksha_malviya} download>Resume</a></button></div>
         </div>
     </div>
   )
