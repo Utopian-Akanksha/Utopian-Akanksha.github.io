@@ -5,6 +5,7 @@ import phone from "../Assets/phone.png"
 import facebook from '../Assets/facebook.png';
 import instagram from '../Assets/instagram.png';
 import linktree from '../Assets/linktree.webp';
+import ContactComponent from '../Components/ContactComponent';
 
 const Contact = () => {
   return (
@@ -35,18 +36,10 @@ const Contact = () => {
             </div>
         </div>
 
-        <div className="box2">
-                <div className="contactHead">Drop me a message !!</div>
-                <div className="labelInput">
-                   <input className="input" placeholder="Your Name" />
-                   <input className="input" placeholder="Your Email" />
-                   <input className="message" placeholder="Your Message" />
-                </div>
-                <div className="send">
-                    <button>Send Message</button>
-                </div>
+        <div>
+            <ContactComponent/>
         </div>
-        <div></div>
+       
     </div>
   )
 }
