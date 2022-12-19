@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.44a49429.css",
-    "main.js": "/static/js/main.33db2921.js",
+    "main.js": "/static/js/main.d81b1bb7.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/myLogo.png": "/static/media/myLogo.86c4b066766f9684f2fc.png",
     "static/media/justShop.gif": "/static/media/justShop.2de7079f99f64a38aeed.gif",
@@ -20,11 +20,11 @@
     "static/media/linktree.webp": "/static/media/linktree.9f8f5890452e499e13a2.webp",
     "index.html": "/index.html",
     "main.44a49429.css.map": "/static/css/main.44a49429.css.map",
-    "main.33db2921.js.map": "/static/js/main.33db2921.js.map",
+    "main.d81b1bb7.js.map": "/static/js/main.d81b1bb7.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44a49429.css",
-    "static/js/main.33db2921.js"
+    "static/js/main.d81b1bb7.js"
   ]
 }
